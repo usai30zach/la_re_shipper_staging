@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Login Page Styles */
+.login-page {
+    @apply min-h-screen flex items-center justify-center;
+    background: linear-gradient(135deg, #e0e1e2 0%, #ffffff 100%); 
+}
+
+.login-container {
+    @apply bg-white p-8 rounded-lg shadow-2xl w-full max-w-md mx-4;
+}
+
+.login-title {
+    @apply text-3xl font-bold text-center text-gray-800 mb-8;
+}
+
+.login-input {
+    @apply w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4 transition duration-200;
+}
+
+.login-button {
+    @apply w-full bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold py-3 px-6 rounded-lg
+    hover:from-blue-600 hover:to-blue-700 transition duration-300 ease-in-out
+    focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 shadow-lg;
+}
+
+.login-divider {
+    @apply my-6 flex items-center justify-center;
+}
+
+.login-divider-line {
+    @apply flex-grow border-t border-gray-300;
+}
+
+.login-divider-text {
+    @apply mx-4 text-sm text-gray-500;
+}
+
+.social-login-button {
+    @apply w-full mb-3 py-3 px-6 rounded-lg border border-gray-300 font-medium
+    hover:bg-gray-50 transition duration-200 flex items-center justify-center gap-3
+    focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
+}
+
+.forgot-password {
+    @apply text-sm text-blue-600 hover:text-blue-800 transition duration-200 text-center mt-4 block;
+}
