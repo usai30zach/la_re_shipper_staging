@@ -50,11 +50,12 @@ const LoginPage = () => {
                         </button>
                     </div>
                     
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        {/* <a href="#" className="forgot-password" style={{ marginLeft: '10px', fontWeight: 'bold', fontSize: '16px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        
+                        <a href="#" className="forgot-password" style={{ marginLeft: '10px' }}>
                             Forgot your password?
-                        </a> */}
-                        <button type="submit" className="login-button" style={{ width: '200px' }}>
+                        </a>
+                        <button type="submit" className="login-button" style={{ width: '100px' }}>
                             Sign In
                         </button>
                     </div>

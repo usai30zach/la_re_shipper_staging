@@ -19,7 +19,7 @@ const LoginPage = () => {
                 
                 <form>
                     <input
-                        type="text"
+                        type="email"
                         placeholder="User Name"
                         className="login-input"
                         required
